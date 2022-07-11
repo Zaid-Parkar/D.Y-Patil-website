@@ -1,0 +1,567 @@
+/*
+CSS CONTAINS :
+
+ 1)First page pic
+2)Navbar
+3)ID's
+4)Heading
+5)sub headings
+6)Images
+7)Links
+8)Description
+9)Sub description
+10)Field
+11)Button
+12)Message
+13)Research
+14)Card
+15)D Y Patil video
+16)Footer
+17)copyrights
+18)Alumini
+ */
+/* First page pic */
+.zoom {
+  padding: 0px;
+  background-color: white;
+  transition: transform .2s;
+  /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.pic {
+  height: 100vh;
+  width: 100%;
+  min-height: 400px;
+  background-size: cover;
+}
+
+.body {
+  margin: 0;
+}
+
+.bg {
+  background-color: #820000;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212529;
+}
+
+.academics, .infrastructure {
+  padding: 10px 30px 10px 30px;
+}
+
+/* Navigation Bar */
+/* ID's */
+#academics, #campus, #rait, #infrastructure {
+  background-color: white;
+  padding-bottom: 70px;
+}
+
+#Message {
+  text-align: center;
+  background-image: linear-gradient(to right top, #d16ba5, #cb6090, #c3567b, #b94d67, #ad4554, #ad4554, #ad4554, #ad4554, #b94d67, #c3567b, #cb6090, #d16ba5);
+  color: white;
+  padding: 20px 0 20px 0;
+}
+
+#research, #admission {
+  background-color: #f9f6ef;
+  padding-bottom: 50px;
+}
+
+#footer {
+  background-color: #f9f6ef;
+  padding-bottom: 0px;
+}
+
+#event {
+  background-color: #2f2424;
+  padding: 70px 0 70px;
+}
+
+#media {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #f9f6ef;
+  padding-right: 3.5%;
+  padding-left: 3.5%;
+  padding-top: 0px;
+  text-align: center;
+}
+
+#copyrights {
+  background-color: #8d2a15;
+  padding: 20px 0 20px 0;
+  color: white;
+}
+
+/* Heading */
+.academics-heading, .infrastructure-heading, .research-heading, .campus-heading, .admission-heading, .rait-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 58px;
+  line-height: 72px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  width: 100%;
+  padding-top: 70px;
+  margin: 0 auto 20px;
+  color: #000000;
+}
+
+.event-heading, .alumini-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 58px;
+  line-height: 72px;
+  font-weight: 900;
+  font-style: normal;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #820000;
+}
+
+/* sub headings */
+.academics-sub-heading, .infrastructure-sub-heading, .research-sub-heading, .campus-sub-heading, .admission-description, .rait-sub-heading {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  line-height: 47px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+  color: #000000;
+}
+
+.rait-sub-heading {
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+/* Images */
+.academics-image {
+  margin-top: 50px;
+  width: 360px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.campus-image, .infrastructure-image {
+  margin-top: 50px;
+  width: 295px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.campus-image {
+  margin-top: 50px;
+  width: 295px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.message-image-1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 30px 0 20px 0;
+  display: inline-block;
+}
+
+.research-main-image {
+  width: 263px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-image {
+  width: 100%;
+  height: 300px;
+}
+
+.footer-image {
+  width: 100%;
+  height: 500px;
+}
+
+/* Links */
+.academics-link, .infrastructure-link, .campus-link {
+  padding-bottom: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.academics-link:hover, .infrastructure-link:hover, .campus-link:hover {
+  text-decoration: underline;
+  color: #820000;
+}
+
+/* Description */
+.academics-description, .campus-description, .rait-sub-description, .infrastructure-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  text-align: left;
+  color: #000000;
+}
+
+.message-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 37px;
+  line-height: 50px;
+  font-weight: 400;
+  font-style: normal;
+  width: 45%;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.research-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 37px;
+  line-height: 46px;
+  font-weight: 900;
+  font-style: normal;
+  width: 100%;
+  color: #000000;
+}
+
+.event-description, .research-main-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #820000;
+  margin-top: 10px;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 600;
+  font-style: normal;
+  width: 100%;
+  text-align: left;
+}
+
+.rait-description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: center;
+}
+
+/* sub description */
+.campus-sub-description, .event-link, .infrastructure-sub-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  text-align: left;
+  color: #000000;
+}
+
+.academics-sub-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  text-align: left;
+  color: #000000;
+}
+
+.event-sub-description, .research-main-sub-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  text-align: left;
+  color: #000000;
+}
+
+.rait-sub-description {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 46px;
+  text-align: center;
+}
+
+/* Field */
+.education-field {
+  width: 80%;
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 50px;
+}
+
+.fields {
+  padding-top: 50px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+}
+
+.field-link {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  padding-left: 10px;
+}
+
+/* Button */
+.btn-danger {
+  text-align: center;
+  padding: 50px auto 50px auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.campus-btn, .event-btn, .infrastructure-btn, .research-btn {
+  margin-top: 70px;
+}
+
+/* Message */
+.message-name {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  font-style: normal;
+  width: 100%;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.current-position {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  color: #000000;
+}
+
+.msg-color {
+  color: white;
+}
+
+/* Research */
+.research-main {
+  margin-bottom: 100px;
+  margin-top: 60px;
+}
+
+.border-primary {
+  color: black;
+}
+
+.info {
+  margin-left: 15px;
+}
+
+.research-sub-description {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  line-height: 38px;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  color: #000000;
+}
+
+/* Card */
+.card {
+  margin: 0 auto;
+  border: 0;
+  padding: 0;
+  width: 20%;
+}
+
+.event-card {
+  margin: 0 100px;
+}
+
+.event-card-padding {
+  margin-left: 10px;
+}
+
+/* D Y Patil video */
+.video-element {
+  width: 1100px;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Footer */
+.footer-content {
+  width: 60%;
+  margin: 10px auto 0 auto;
+}
+
+.table {
+  padding: 0 0 0 0;
+  color: #000000;
+}
+
+.footer-column {
+  margin: 0 20px 0 20px;
+  padding: 200px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  padding: 0;
+}
+
+/* copyrights */
+.footer-copyright {
+  width: 60%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 20px 0 20px;
+}
+
+.ficon {
+  padding: 0 10px 10px;
+  color: white;
+}
+
+.ficoin:hover {
+  background-color: #820000;
+}
+
+/* Alumini */
+.container-alumini {
+  position: relative;
+  width: 100%;
+  max-width: auto;
+}
+
+.container-alumini img {
+  width: 100%;
+}
+
+.container-alumini .btn {
+  position: absolute;
+  top: 70%;
+  left: 48%;
+  right: 50;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.container-alumini .btn:hover {
+  background-color: black;
+}
+
+.alumini-heading {
+  font-size: 80px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-img {
+  width: 170px;
+  height: 110px;
+  position: absolute;
+  right: 65%;
+  up: 50px;
+}
+
+.justify-content-between {
+  margin-right: 15px;
+}
+
+.btn {
+  background-color: #212529;
+}
+
+.dropdown-item {}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.dropdown-toggle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.people {
+  width 40%;
+  position: absolute;
+  right: 60%;
+  background-color: red;
+}
+
+.footer-copyright-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-copyright-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.msg-link, .event-link, .research-links {
+  text-decoration: none;
+}
+
+.msg-link:hover, .event-link:hover, .research-links:hover {
+  text-decoration: underline;
+}
