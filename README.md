@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-https://franciscoponcedev.github.io/Leaderboard/
+https://zaid-parkar.github.io/D.Y-Patil-website/
 
 For best result view on monitor/laptop .
 NOTE : Website is not fully compatible with mobile phones!! will add responsiveness soon.
